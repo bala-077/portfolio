@@ -1,0 +1,239 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary:#282A35;
+    --text:#757575;
+    --style:#6E06F2;
+        
+}
+::-webkit-scrollbar{
+    display: none;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    height: 100vh;
+    width: 100%;
+    background:linear-gradient(-70deg,#a8acac,#F6F8F8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+.container{
+    height: 550px;
+    width: 1100px;
+    background-color: #FFFFFF;
+    /* border: 1px solid black; */
+    /* box-shadow: 0px 0px 5px black; */
+    border-radius: 20px;
+    border: none;
+    overflow: scroll;
+}
+.first{
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+}
+.list{
+    display: flex;
+    position: fixed;
+    top: 50px;
+    margin-left: 58%;
+    width: 25%;
+    height: 6%;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+.list li{
+    list-style: none;
+    text-align: center;
+}
+.list li a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--primary);
+}
+/* ------------------------------------------------------------------------------------------------ */
+
+.image{
+    height:75%;
+    width: 30%;
+    position: fixed;
+    border-radius: 20px;
+}
+.image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+.demo{
+    height: 94%;
+    width: 60%;
+    /* background-color: red; */
+    margin-left: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    height: 300px;
+    width: 85%;
+}
+
+.content h3{
+    color: var(--text);
+}
+.content h1{
+    font-size: 45px;
+}
+.content h1 span{
+    color: var(--style);
+}
+/* -------------------------------------first division finish here--------------------------------------------------------------- */
+
+.second{
+    height: 100%;
+    width: 100%;
+}
+.about{
+    height: 100%;
+    width: 60%;
+    margin-left: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.code{
+    height: 400px;
+    width: 550px;
+}
+.code h1{
+    font-size: 50px;
+    color: var(--primary);
+}
+.code h1 span{
+    color: var(--style);
+}
+.empty{
+    display: flex;
+    margin-top: 20px;
+}
+.line{
+    height: 50px;
+    width: 10px;
+    background-color: var(--style);
+}
+.empty p{
+    color: var(--text);
+}
+
+/* -----------------------------------------------------second layout finish here------------------------------------------------ */
+
+.third{
+    height: 100%;
+    width: 100%;
+}
+.third-content{
+    height: 100%;
+    width: 60%;
+    margin-left: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.third-code{
+    height: 400px;
+    width: 550px;
+    padding: 30px;
+}
+.third-code h1{
+    font-size: 50px;
+}
+.third-code span{
+    font-size: 70px;
+    color: var(--style);
+}
+.third-code small{
+    font-size: 20px;
+}
+/* -----------------------------------third layer finish here------------------------------------------------------------------ */
+.fourth{
+    height: 100%;
+    width: 100%;
+}
+.fourth-content{
+    height: 100%;
+    width: 60%;
+    margin-left: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fourth-code{
+    height: 400px;
+    width: 650px;
+    padding: 30px;
+}
+.fourth-code h1{
+    font-size: 50px;
+}
+.fourth-code span{
+    font-size: 70px;
+    color: var(--style);
+}
+.list-items{
+    height: 200px;
+    width: 100%;
+    display: flex;
+
+}
+.list-items ul{
+    height: 200px;
+    width: 25%;
+}
+.list-items ul li{
+    list-style: none;
+}
+/* ----------------------------------------------------fourth layer finish here------------------------------------------------------- */
+.fifth{
+    height: 100%;
+    width: 100%;
+}
+.fifth-content{
+    height: 100%;
+    width: 60%;
+    margin-left: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fifth-code{
+    height: 400px;
+    width: 650px;
+    padding: 30px;
+    border-radius: 10px;
+}
+.fifth-code h1{
+    font-size: 50px;
+}
+.fifth-code h1 span{
+    color: var(--style);
+    font-size: 80px;
+}
+.images{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.images img{
+    height: 100px;
+    width: 100px;
+}
